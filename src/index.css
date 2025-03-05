@@ -13,7 +13,6 @@
   overflow: hidden;
   padding-bottom: 20px;
   font-family: Cascadia, sans-serif;
-  transition: transform 0.15s ease-in-out, box-shadow 0.25s ease-in-out
 }
 
 .card h2 {
@@ -34,7 +33,23 @@
   object-fit: cover;
 }
 
-.card:hover {
+.card:hover, .button:hover {
   transform: scale(1.05);
   box-shadow: 12px 12px 11px hsla(0, 0%, 83%, 0.534);
+  transition: transform 0.15s ease-in-out, box-shadow 0.25s ease-in-out
 }
+
+.button {
+  margin: 250px;
+  margin-left: 250px;
+  border: 1px solid hsl(0, 0%, 82%);
+  border-radius: 10px;
+  color: rgb(92, 92, 92);
+  font-family: Cascadia, sans-serif;
+  text-align: center;
+  width: 100px;
+  box-shadow: 5px 5px 3px hsla(0, 0%, 83%, 0.434);
+  cursor: wait;
+}
+
+/* make transitions for cursor off */
