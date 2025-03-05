@@ -7,17 +7,18 @@ function App() {
       <Card
         picture={hamimg}
         name="Lewis Hamilton"
-        championships="7"
+        desc="7x Formula 1 World Champion"
         alt="Lewis Hamilton"
       />
       <Card 
         picture={verimg}
         name="Max Verstappen"
-        championships="4"
+        desc="4x Formula 1 World Champion"
         alt="Max Verstappen"
 
       />
-    </>
+      <Card />
+      </>
   );
 }
 export default App;
