@@ -26,3 +26,11 @@ color:darkgray
   padding: 0;
   object-fit: cover;
 }
+
+.butt{
+  background-color: hsl(0, 84%, 46%);
+  color:white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

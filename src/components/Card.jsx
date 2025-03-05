@@ -1,10 +1,9 @@
-import Picture from '../assets/LH44.jpg'
-function Card() {
+function Card(props) {
   return (
     <div className="card">
-      <img src={Picture} alt="Lewis Hamilton Celebrating" className="cardImg"></img>
-      <h2>Lewis Hamilton</h2>
-      <p>7x Formula 1 World Champion</p>
+      <img src={props.picture} alt={props.alt} className="cardImg"></img>
+      <h2>{props.name}</h2>
+      <p>{props.championships}x Formula 1 World Champion</p>
     </div>
   );
 }
