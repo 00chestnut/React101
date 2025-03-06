@@ -13,7 +13,7 @@ function Button() {
       clicks++;
     }
   };
-
+// Dig for getting properties of parameters
   function Dig() {
     const parameters = (e) => console.log(e);
     return <button onClick={(e) => parameters(e)}> </button>;
