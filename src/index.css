@@ -13,7 +13,7 @@
   overflow: hidden;
   padding-bottom: 20px;
   font-family: Cascadia, sans-serif;
-  transition: transform 0.15s ease-in-out, box-shadow 0.25s ease-in-out
+  transition: transform 0.15s ease-out, box-shadow 0.25s ease-in-out
 }
 
 .card h2 {
